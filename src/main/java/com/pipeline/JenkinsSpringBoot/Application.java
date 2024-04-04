@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Application implements CommandLineRunner {
     public static final Logger logger = LoggerFactory.getLogger(Application.class);
-
+    
     public static void main(String[] args) {
         logger.info("Continuous Integration in First Logger");
         SpringApplication.run(Application.class, args);
@@ -19,5 +19,6 @@ public class Application implements CommandLineRunner {
     public void run(String... args) throws Exception {
         logger.info("It's the Second Logger");
          logger.info("It's the third Logger");
+        logger.info("It's the fourth Logger");
     }
 }
