@@ -20,5 +20,6 @@ public class Application implements CommandLineRunner {
         logger.info("It's the Second Logger");
          logger.info("It's the third Logger");
         logger.info("It's the fourth Logger");
+         logger.info("It's the fifth Logger");
     }
 }
